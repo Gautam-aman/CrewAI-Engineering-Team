@@ -6,6 +6,8 @@ from datetime import datetime
 
 from engineering_tem.crew import EngineeringTem
 
+import engineering_tem.patch 
+
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
 # This main file is intended to be a way for you to run your
